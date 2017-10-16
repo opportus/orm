@@ -1,0 +1,19 @@
+{
+	"name": "opportus/orm",
+	"description": "Yet Another ORM... [PRE_ALPHA]",
+	"keywords": ["orm"],
+	"type": "library",
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Clément Cazaud",
+			"email": "opportus@gmail.com"
+		}
+	],
+	"require": {
+		"php": ">=7.0.0"
+	},
+	"autoload": {
+		"psr-4": {"Opportus\\Orm\\": "src/"}
+	}
+}
